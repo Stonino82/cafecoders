@@ -9,3 +9,13 @@ a:visited, a:hover, a:focus, a:active {
     border: none;
     padding: 0;
 }
+
+
+/* Transition for .nav-up and .nav-down - see js effect (default.js) */
+.nav {
+    transition: all .5s ease-in-out;
+}
+.nav-up {
+	transform: translateY(-180%);
+	transition-delay: 1s; /* para retrasar la subida del menú */
+}
