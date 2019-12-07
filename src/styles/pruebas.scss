@@ -1,0 +1,11 @@
+/* overwrite parent-style */
+a:visited, a:hover, a:focus, a:active {
+    color: inherit;
+}
+.post, .page {
+    margin: 0 0 0 0;
+}
+.nav__toggler {
+    border: none;
+    padding: 0;
+}

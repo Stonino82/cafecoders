@@ -1,0 +1,13 @@
+/* Style for Contact Form 7 */
+.contact__form {
+    p {
+        color: transparent;
+        margin: 0 0;
+        max-width: none;
+    }
+    .contact__form-row {
+        input {
+            width: inherit;
+        }
+    }
+}
