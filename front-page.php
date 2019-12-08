@@ -7,7 +7,6 @@
         <h1>cafe:{coders}</h1>
         <hr>
         <p>We create stunning digital experiences<br> that will help your business stand out.</p>
-        <a class="home__scroll" href="#section__about"></a>
     </article>
 
 </section> <!-- /home section -->
