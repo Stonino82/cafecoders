@@ -225,7 +225,7 @@
         <a class="blog__item" href="">
             <div class="blog__item-image">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/blog__image--1.jpg" alt="">
-                <h4 class="blog__item-name">Web designer</h4>
+                <h4 class="blog__item-name">Web design</h4>
             </div>
             <div class="blog__item-text">
                 <h3 class="blog__item-heading">Titulo</h3>
@@ -236,7 +236,7 @@
         <a class="blog__item" href="">
             <div class="blog__item-image">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/blog__image--2.jpg" alt="">
-                <h4 class="blog__item-name">Web designer</h4>
+                <h4 class="blog__item-name">Web design</h4>
             </div>
             <div class="blog__item-text">
                 <h3 class="blog__item-heading">Titulo</h3>
@@ -247,7 +247,7 @@
         <a class="blog__item" href="">
             <div class="blog__item-image">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/blog__image--3.jpg" alt="">
-                <h4 class="blog__item-name">Web designer</h4>
+                <h4 class="blog__item-name">Web design</h4>
             </div>
             <div class="blog__item-text">
                 <h3 class="blog__item-heading">Titulo</h3>
