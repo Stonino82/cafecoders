@@ -202,18 +202,18 @@ section { min-height: 100vh; position: relative; }
 .services { display: flex; flex-direction: column; padding: 0; text-align: center; }
 .services__block { align-items: center; background: url(../img/services__block.jpg); display: flex; flex-grow: 1; justify-content: center; margin-top: auto; padding: 5rem 0; }
 .services__content { align-items: center; display: flex; flex-direction: column; justify-content: center; padding: 3rem 2rem 4rem; }
-.services__image { transform: scale(.9); transform-origin: center top; transition: transform .25s; }
-.services__item { margin: 0 2rem; max-width: 440px; padding-bottom: 3rem; position: relative; }
-.services__item::after { background: linear-gradient(90deg,#fff 0%,#000 50%,#fff 100%); bottom: 1rem; content: ""; filter: blur(5px); height: 18px; left: 1rem; opacity: .35; position: absolute; right: 1rem; transition: all .25s; }
+.services__image { transform: scale(.8); transform-origin: center top; transition: transform .25s; }
+.services__item { margin: 0 4rem; max-width: 440px; padding-bottom: 3rem; position: relative; }
+.services__item::after { background: linear-gradient(90deg,#fff 0%,#000 50%,#fff 100%); bottom: 6rem; content: ""; filter: blur(5px); height: 18px; left: 1rem; opacity: .35; position: absolute; right: 1rem; transition: all .25s; }
 .services__name { align-items: flex-end; display: flex; height: 3rem; justify-content: center; margin-bottom: 1rem; }
 @media (min-width: 992px) {
 	.services__content { padding-top: 5rem; }
-	.services__item:hover::after { bottom: 0; left: 0; right: 0; }
-	.services__item:hover .services__image { transform: scale(1); }	
+	.services__item:hover::after { bottom: 4rem; left: 0; right: 0; height: 14px; filter: blur(10px);}
+	.services__item:hover .services__image { transform: scale(.85); }	
 }
 @media (max-width: 767px) {
 	.services__block { align-items: center; flex-direction: column; padding: 2rem 0; }
-	.services__item { margin: 2rem 0; }
+	.services__item { margin: 1rem 0; }
 }
 
 .team { align-items: center; background: #F0F0F0; display: flex; justify-content: space-between; text-align: center; }
