@@ -39,7 +39,7 @@ jQuery(function ($) {   // All scripts after this line (with this we can use jQu
     $(window).scroll(function () { 
     var scroll = $(this).scrollTop();
     // if (scroll >= $('#section__home').outerHeight() ) { //After section section__home
-    if (scroll >= 1 ) { //After section section__home
+    if (scroll >= 1 ) { //After 1px
         if(!flag){
         $('nav').addClass('nav--sticked');
         flag = true;
