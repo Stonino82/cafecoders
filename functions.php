@@ -2,7 +2,7 @@
 
 
 
-/* Copiado del parent theme, y eliminado algunas partes que hasta el momento no necesitaba */
+/* Copiado del parent theme, sin las partes que hasta el momento no necesito */
 /* Comparar con functions.pho del parent theme para ver cuales */
 if ( ! function_exists( 'cafecoders_child_setup' ) ) :
 	/**
