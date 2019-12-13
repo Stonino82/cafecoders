@@ -176,7 +176,7 @@
         </a>
     </div>
 
-    <!-- ex modal for first reference - to be erased -->
+    <!-- ex modal for first reference design - to be erased -->
 
     <!-- <div class="remodal references__remodal" data-remodal-id="modal-references--1">
         <button data-remodal-action="close" class="remodal-close"></button>
