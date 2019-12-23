@@ -144,7 +144,7 @@
 
 </section> <!-- /team section -->
 
-<section class="references" id="section__references">
+<section class="references-class" id="section__references">
 
     <div class="references__block">
         <a class="references__item" href="https://www.statusoid.com/">
