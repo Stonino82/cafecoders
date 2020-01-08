@@ -150,7 +150,6 @@ section { min-height: 100vh; position: relative; }
 .references__content { padding: 5rem; text-align: center; }
 .references__image { display: block; object-fit: cover; }
 .references__item { display: flex; justify-content: center; margin: auto; max-height: 100vh; position: relative; }
-.references__item::after { background: linear-gradient(transparent,rgba(0,0,0,.2)); bottom: 0; content: ""; height: 50px; left: 0; position: absolute; right: 0; }
 .references__item:nth-child(2n+1) .references__text { order: 2; }
 .references__text { flex: 0 0 400px; max-width: 400px; padding: 5rem; }
 @media (max-width: 991px) {
