@@ -115,7 +115,6 @@ section { min-height: 100vh; position: relative; }
 
 .contact { align-items: center; background: url(../img/contact__bg.jpg) no-repeat center center; background-size: cover; color: #B59A82; display: flex; min-height: 100vh; padding: 2rem; position: relative; text-shadow: 0 0 3px rgba(0,0,0,.5); }
 .contact h3 { color: #B59A82; }
-.contact p { background: radial-gradient(rgba(0,0,0,.5),transparent 80%);  }
 .contact__content { margin: 0 auto; max-width: 800px; padding: 1rem 1rem; text-align: center; width: 100%; }
 .contact__form { display: flex; flex-direction: column; }
 .contact__form input { background: rgba(246,244,239,.9); border: 0; box-shadow: 0 0 20px #00000065; color: #603F2F; font: .8rem 'Poppins', sans-serif; margin-bottom: 2rem; padding: 1rem .5rem; width: 100%; }
