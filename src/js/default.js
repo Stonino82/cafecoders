@@ -22,6 +22,15 @@ jQuery(function ($) {   // All scripts after this line (with this we can use jQu
             $(this).toggleClass('nav__toggler--opened');
         });
 
+        // slider
+
+        $(".js-team__slider").slick({
+            arrows: false,
+            autoplay: true,
+            dots: true,
+            infinite: true,
+        });
+
     });
 
     // var home = $('#section__home').outerHeight();
@@ -92,7 +101,6 @@ jQuery(function ($) {   // All scripts after this line (with this we can use jQu
         lastScrollTop = st;
         }
     /*********************************** NAVIGATION EFFECT *****************************************/
-
 
 
 }); // All scripts before this line

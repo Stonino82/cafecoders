@@ -3,10 +3,10 @@
 <section class="home" id="section__home">
 
     <article class="home__content">
-        <h3>Hello folks, we are</h3>
+        <h3>Hello everybody, we are</h3>
         <h1>cafe:{coders}</h1>
         <hr>
-        <p>We create stunning digital experiences<br> that will help your business stand out.</p>
+        <p>We are here to help you with your website!<br> Have a look to our project</p>
     </article>
 
 </section> <!-- /home section -->
@@ -16,7 +16,11 @@
     <article class="about__content">
         <h3>About us</h3>
         <hr>
-        <p>We are a team of freelancers, living in Barcelona, who have worked for many years in the web development, as a front-end developers, seo engineers and web designers in hundreds of projects for many different clients. We decided to connect our skills to provide more complex solution in the web development.</p>
+        <p>We are two web developers, who have worked for many years as a front-end developers, seo engineers and web designers. We came from Italy and Slovakia and now we live in Barcelona.</p>
+        <p>We have been working on hundreds of projects for many different clients from many different countries in Europe. We decided to connect our skills to provide a complex solutions in the web development.</p>
+        <p>We realized that by time we both collected a lot of various knowhow and contacts. By sharing them we can create our joint projects. We can even help each other with our work, and above all we can improve our knowledge and reach a better progress and enjoy our work even more.</p>
+        <p>If you like our project and would like to use our help with your own website or project, you are definitely welcomed to contact us here: </p>
+        <a class="fa fa-arrow-down about__link" href="#section__contact"></a>
     </article>
 
     <div class="about__image"></div>
@@ -28,7 +32,7 @@
     <article class="services__content">
         <h3>Services</h3>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nisl pharetra, tempor risus nec, aliquam dui. Cras mollis hendrerit risus, cursus efficitur sem luctus eget.</p>
+        <p>We can offer you a partial works on your web project, as design or HTML codes. We can also prepare the whole website.</p>
     </article>
 
     <div class="services__block">
@@ -137,81 +141,93 @@
         <div class="team__remodal-secondary">
             <div class="team__remodal-header">“it's only rock'n'roll but I like it”</div>
             <p>I became self employed in 2009 right after my university studies. Despite having studied marketing communication, I work as a HTML/CSS front-end developer. I very much adore the freedom to travel my job gives me, while at the same time earning a living. I am from Bratislava, Slovakia and currently living in Barcelona.</p>
-            <p><b>"We have been cooperating with Bára for several years. Thanks to the codes, she has provided us with, we were able to finish plenty of interesting projects. What we appreciate the most is her professional attitude to work and her reliability at any time."</b> - Team CorporatePRO</p>
-            <p><b>"We have cooperated with Barbora Majernikova on several projects and there has been always a great satisfaction with her work. Unlike some other front end developers we work with, there is no need to modify the code and fix it in the responsive resolutin. It is always a precisely processed output without any problems and, moreover, always delivered on time."</b> - Inizio.cz</p>
+            <div class="team__slider js-team__slider">
+                <div class="team__testimonial">We have been working with Ms Majernikova for more than two years with a great satisfaction.  We've implemented more than 20 projects together and she did all of them very professionally and always to full satisfaction. We appreciate her flexibility, reliability, speed and quality work.  Negotiation is always without any problem and the price is adequate. I'm pleased to recommend Ms. Majerikova.
+                    <div class="team__testimonial-client">Ing. J. Šmigura, CEO, SnugDesign s.r.o.</div>
+                </div>
+                <div class="team__testimonial">"We have been cooperating with Bára for several years. Thanks to the codes, she has provided us with, we were able to finish plenty of interesting projects. What we appreciate the most is her professional attitude to work and her reliability at any time." 
+                    <div class="team__testimonial-client">Team CorporatePRO</div>
+                </div>
+                <div class="team__testimonial">"We have cooperated with Barbora Majernikova on several projects and there has been always a great satisfaction with her work. Unlike some other front end developers we work with, there is no need to modify the code and fix it in the responsive resolutin. It is always a precisely processed output without any problems and, moreover, always delivered on time." 
+                    <div class="team__testimonial-client">Inizio.cz</div>
+                </div>
+            </div>
         
     </div>
 
 </section> <!-- /team section -->
 
-<section class="references-class" id="section__references">
-
-    <div class="references__block">
-        <a class="references__item" href="https://www.statusoid.com/">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--statusdroid.jpg" alt="Statusdroid">
-            <div class="references__name">Statusdroid<br>Front end</div>
-        </a>
-        <a class="references__item references__item--landscape" href="">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--2.jpg" alt="">
-            <div class="references__name">Project name</div>
-        </a>
-        <a class="references__item references__item--portrait" href="">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--3.jpg" alt="">
-            <div class="references__name">Project name</div>
-        </a>
-        <a class="references__item" href="http://karpis.sk/">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--karpis.jpg" alt="Karpis">
-            <div class="references__name">Karpis<br>Front end</div>
-        </a>
-        <a class="references__item" href="https://www.manopella.com/">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--manopella.jpg" alt="Manopella">
-            <div class="references__name">Manopella<br>Front end</div>
-        </a>
-        <a class="references__item" href="">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--4.jpg" alt="">
-            <div class="references__name">Project name</div>
-        </a>
-        <a class="references__item references__item--more" href="">
-            
-        </a>
-    </div>
-
-    <!-- ex modal for first reference design - to be erased -->
-
-    <!-- <div class="remodal references__remodal" data-remodal-id="modal-references--1">
-        <button data-remodal-action="close" class="remodal-close"></button>
-
-        <div class="references__grid">
-            <img class="references__grid-item references__grid-item--landscape" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__statusdroid--1.jpg" alt="statusdroid">
-            <img class="references__grid-item" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__statusdroid--2.jpg" alt="statusdroid">
-            <img class="references__grid-item" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__statusdroid--3.jpg" alt="statusdroid">
-        </div>
-        <div class="references__remodal-text">
-            <h3>Front end</h3>
-            <h2>Statusdroid</h2>
-            <hr>
-            <h6>I am the front end developer of this project</h6>
-            <p>Statusoid offers a free trial of website monitoring. It’s completely free. It possible to choose a subscription plan at any point during the trial and pay by credit card.</p>
-            <p>When your website goes down, statusdroid helps you fix the issues, pause PPC ads and notify your social networks. Statusoid is your website’s new best friend forever!</p>
-            <p>Everything in one place. Choose which part of the world you want your website to be monitored and discover issues in the blink of an eye.</p>
-            <p>It contains integrated public status pages which keep your customers up to date automatically during downtime. Customer satisfaction is a key, so it’s the best to manage their expectations</p>
-
-            <p>
-                <a class="references__link" href="https://www.facebook.com/pg/statusoid/about/?ref=page_internal"><i class="fab fa-facebook-square fa-lg"></i>see on Facebook</a><br>
-                <a class="references__link" href="https://www.statusoid.com/"><i class="fas fa-external-link-alt fa-lg"></i> visit the page</a>
-            </p>
-        </div>
-
-    </div> -->
+<section class="references" id="section__references">
 
     <article class="references__content">
         <h3>Some Works</h3>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nisl pharetra, tempor risus nec, aliquam dui. Cras mollis hendrerit risus, cursus efficitur sem luctus eget.</p>
+        <p>Take a look to our projects, these are just a few, we have participated on many more. And of course another are already in proces... </p>
+        <p>If you get stocked with your project, or if you need a coworkers to give you a hand with a website, contact us, let's have a coffe and speak about it.</p>
     </article>
 
-</section> <!-- /team references -->
+    
+    <div class="references__item">
+        <div class="references__text">
+            <h4>2018 - TYPE OF PROJECT - CLIENT</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+            <a class="references__button" href="">WEB SITE</a>
+        </div>
+        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--tonic.jpg" alt="">
+    </div>
 
+    <div class="references__item">
+        <div class="references__text">
+            <h4>2016 - now - front end - statusoid</h4>
+            <p> Monitor, manage & maintain your website with ease. Clever website monitoring which will help you fix the issues, automatically pause running Online PPC ads and notify your social networks. </p>
+            <a class="references__button" href="https://www.statusoid.com/" target="_blank">WEB SITE</a>
+        </div>
+        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--statusoid.jpg" alt="">
+    </div>
+
+    <!-- web doesn't work for now
+    <div class="references__item">
+        <div class="references__text">
+            <h4>2018 - front end - Manopella</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+            <a class="references__button" href="https://www.manopella.com/" target="_blank">WEB SITE</a>
+        </div>
+        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--manopella.jpg" alt="">
+    </div>
+    -->
+
+    <div class="references__item">
+        <div class="references__text">
+            <h4>2019 - front end - Karpis</h4>
+            <p>High quality wooden furniture manufacturers. The website promotes the whole scale of designs of the furniture, mostly tables.</p>
+            <a class="references__button" href="http://karpis.sk/en-index.html" target="_blank">WEB SITE</a>
+        </div>
+        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--karpis.jpg" alt="">
+    </div>
+
+    <div class="references__item">
+        <div class="references__text">
+            <h4>2019 - front end - SnugDesign</h4>
+            <p>Real estate website in Czech Republic. Purchase, sale and financing of real estate.</p>
+            <a class="references__button" href="http://vk-reality-sablony.snugdev.cz/" target="_blank">WEB SITE</a>
+        </div>
+        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--real.jpg" alt="">
+    </div>
+
+    <div class="references__item">
+        <div class="references__text">
+            <h4>2019 - front end - SnugDesign</h4>
+            <p>Wealth management - Application designed for clients who want to keep track of their financial and personal assets.</p>
+            <a class="references__button" href="http://roc-wm-sablony.snugdev.cz/" target="_blank">WEB SITE</a>
+        </div>
+        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--wealth.jpg" alt="">
+    </div>
+
+
+    
+
+</section> <!-- /reference -->
+<!--
 <section class="blog" id="section__blog">
 
     <article class="blog__content">
@@ -257,14 +273,15 @@
 
     </div>
 
-</section> <!-- /blog references -->
+</section>--> <!-- /blog  -->
 
 <section class="contact" id="section__contact">
 
     <div class="contact__content">
-        <h3>Get in touch</h3>
         <h2>let’s have a coffee</h2>
         <hr>
+        <p>If you like our project and would like to use our help with your own website or project, leave our contact and message here, we will write you ASAP back on your email or Whatsapp and we can have a coffee soon! </p>
+        <p>And of course, feel free to speak English, Spanish, Italian or Slovak :-). </p>
 
         <!-- <form class="contact__form">
             <input placeholder="Name*">
