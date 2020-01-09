@@ -127,5 +127,3 @@ add_filter('body_class', function (array $classes) {
 //     }
 //     return $classes;
 // }
-
-//prova
