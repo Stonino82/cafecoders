@@ -32,7 +32,7 @@ html.remodal-is-locked{overflow:hidden;-ms-touch-action:none;touch-action:none}.
 
 .remodal-wrapper { padding: 1rem 1rem 0; }
 
-.remodal {-webkit-transform: translate3d(0, 0, 0); background: #fff; box-shadow: 0 0 15px rgba(0,0,0,.5); box-sizing: border-box; margin-bottom: 10px; transform: translate3d(0, 0, 0); width: 100%; }
+.remodal {-webkit-transform: translate3d(0, 0, 0); background: #fff; box-shadow: 0 0 15px rgba(0,0,0,.2); box-sizing: border-box; margin-bottom: 10px; transform: translate3d(0, 0, 0); width: 100%; }
 .remodal.remodal-is-opening, .remodal.remodal-is-closing { animation-duration: 0.3s; animation-fill-mode: forwards; }
 .remodal.remodal-is-opening {animation-name: remodal-opening-keyframes; }
 .remodal.remodal-is-closing {animation-name: remodal-closing-keyframes; }

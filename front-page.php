@@ -59,17 +59,15 @@
     <article class="team__content">
         <h3>Team</h3>
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nascetur, venenatis dui suspendisse vestibulum erat lectus dis netus, aliquet donec class imperdiet justo eu at. Sociosqu quam convallis in lectus netus congue litora rhoncus posuere, porta vehicula nisl hendrerit ridiculus sagittis suspendisse orci. Euismod hac congue auctor nostra donec nulla integer aliquam, rutrum volutpat ultricies pellentesque cum cursus nisl ut, malesuada luctus maecenas sociosqu est diam faucibus.</p>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nascetur, venenatis dui suspendisse vestibulum erat lectus dis netus, aliquet donec class imperdiet justo eu at. Sociosqu quam convallis in lectus netus congue litora rhoncus posuere, porta vehicula nisl hendrerit ridiculus sagittis suspendisse orci. Euismod hac congue auctor nostra donec nulla integer aliquam, rutrum volutpat ultricies pellentesque cum cursus nisl ut, malesuada luctus maecenas sociosqu est diam faucibus.</p> -->
     </article>
 
     <div class="team__block">
 
         <a class="team__item" href="#modal-team--1">
-            <div>
-                <h5>Antonino Lattene</h5>
-                <h4>Web designer</h4>
-            </div>
             <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--1.jpg" alt=""></div>
+            <h5>Antonino Lattene</h5>
+            <h4>Web designer</h4>
         </a>
 
         <a class="team__item team__item--bg-2" href="#modal-team--2">
@@ -79,14 +77,6 @@
             </div>
             <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--2.jpg" alt=""></div>
         </a>
-
-        <div class="team__item team__item--bg-3">
-            <div>
-                <h5>John Doe</h5>
-                <h4>Web designer</h4>
-            </div>
-            <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--3.jpg" alt=""></div>
-        </div>
 
         <a class="team__item team__item--joinus team__item--bg-4" href="#section__contact">
             <div>
@@ -104,8 +94,8 @@
         <div class="team__remodal-primary">
             <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--1.jpg" alt=""></div>
             <div>
-                <h3>UX/UI - Web designer</h3>
-                <h2>Joe Doe</h2>
+                <h5>Antonino Lattene</h5>
+                <h4>UX/UI - Web designer</h4>
                 <hr>
                 <p>
                     <a class="team__link" href=""><i class="fab fa-linkedin fa-lg"></i></a>
@@ -162,20 +152,9 @@
     <article class="references__content">
         <h3>Some Works</h3>
         <hr>
-        <p>Take a look to our projects, these are just a few, we have participated on many more. And of course another are already in proces... </p>
-        <p>If you get stocked with your project, or if you need a coworkers to give you a hand with a website, contact us, let's have a coffe and speak about it.</p>
+        <!-- <p>Take a look to our projects, these are just a few, we have participated on many more.<br /> And of course others are already in proces...<br /> If you get stocked with your project, or if you need a coworkers to give you a hand with a website, contact us, let's have a coffe and speak about it.</p> -->
     </article>
 
-    
-    <div class="references__item">
-        <div class="references__text">
-            <p>2018</p>
-            <h4>TYPE OF PROJECT - CLIENT</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
-            <a class="references__button" href="">WEB SITE</a>
-        </div>
-        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--tonic.jpg" alt="">
-    </div>
 
     <div class="references__item">
         <div class="references__text">
