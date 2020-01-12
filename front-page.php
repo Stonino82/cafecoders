@@ -169,7 +169,8 @@
     
     <div class="references__item">
         <div class="references__text">
-            <h4>2018 - TYPE OF PROJECT - CLIENT</h4>
+            <p>2018</p>
+            <h4>TYPE OF PROJECT - CLIENT</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
             <a class="references__button" href="">WEB SITE</a>
         </div>

@@ -148,7 +148,7 @@ section { min-height: 100vh; position: relative; }
 .references__button { background: #B59A82; border-radius: 10px; color: #fff; display: inline-block; min-width: 200px; padding: 11px; text-align: center; }
 .references__content { padding: 5rem; text-align: center; }
 .references__image { display: block; flex: 0 0 calc(100% - 400px); max-width: calc(100% - 400px); object-fit: cover; }
-.references__item { display: flex; justify-content: center; margin: auto; max-height: 100vh; position: relative; }
+.references__item { display: flex; justify-content: center; margin: auto; max-height: 100vh; position: relative; padding: 5%;}
 .references__item:nth-child(2n+1) .references__text { order: 2; }
 .references__text { flex: 0 0 400px; max-width: 400px; padding: 5rem; }
 @media (max-width: 991px) {
