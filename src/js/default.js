@@ -27,6 +27,7 @@ jQuery(function ($) {   // All scripts after this line (with this we can use jQu
         $(".js-team__slider").slick({
             arrows: false,
             autoplay: true,
+            autoplaySpeed: 8000,
             dots: true,
             infinite: true,
         });

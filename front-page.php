@@ -3,10 +3,9 @@
 <section class="home" id="section__home">
 
     <article class="home__content">
-        <h3>Hello everybody, we are</h3>
-        <h1>cafe:{coders}</h1>
+        <h2>cafe:{coders}</h2>
         <hr>
-        <p>We are here to help you with your website!<br> Have a look to our project</p>
+        <h1>web development agency based in Barcelona</h1>
     </article>
 
 </section> <!-- /home section -->
@@ -14,13 +13,17 @@
 <section class="about" id="section__about">
 
     <article class="about__content">
-        <h3>About us</h3>
-        <hr>
-        <p>We are two web developers, who have worked for many years as a front-end developers, seo engineers and web designers. We came from Italy and Slovakia and now we live in Barcelona.</p>
-        <p>We have been working on hundreds of projects for many different clients from many different countries in Europe. We decided to connect our skills to provide a complex solutions in the web development.</p>
-        <p>We realized that by time we both collected a lot of various knowhow and contacts. By sharing them we can create our joint projects. We can even help each other with our work, and above all we can improve our knowledge and reach a better progress and enjoy our work even more.</p>
-        <p>If you like our project and would like to use our help with your own website or project, you are definitely welcomed to contact us here: </p>
-        <a class="fa fa-arrow-down about__link" href="#section__contact"></a>
+        <!-- <h3>About us</h3>
+        <hr> -->
+        <h4>Web developers,<br>addicted to coffee.<br>We are cafecoders!</h4>
+        <p>Our passion for the world of web development is second only to our addiction to coffee, in fact ... we don't start a project without having had a good coffee (and some others in the meantime).</p>
+        <p>In our team there are those who prefer a good espresso italian coffee , others long American-style, others add milk, and others drink it without sugar.</p>
+        <p>In the same way, each one of us is preferably dedicated to a particular aspect of development, flirting with close topics: we have an experience and user interface designer, a Front-End developer, a development specialist focused on SEO, etc.</p>
+        <h4>Everything we do, we do it with passion!<br>(and a good coffee by our side!)</h4>
+        <p>We have worked on hundreds of projects for different clients from different countries in Europe, this translates into hundreds and hundreds of coffee, and a good background of experience.</p>
+        <p>Take a look at some of our services and some of the projects we have worked on, maybe we can help you out.</p>
+        <p>If you want to develop a web project, or improve your application, you know: turn on your coffee machine, and fill out the form below, we will be there before it gets cold!</p>
+        <!-- <a class="fa fa-arrow-down about__link" href="#section__contact"></a> -->
     </article>
 
     <div class="about__image"></div>
@@ -66,24 +69,26 @@
 
         <a class="team__item" href="#modal-team--1">
             <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--1.jpg" alt=""></div>
-            <h5>Antonino Lattene</h5>
-            <h4>Web designer</h4>
+            <div class="team__item--caption">
+                <h5>Antonino Lattene</h5>
+                <h4>Web designer</h4>
+            </div>
         </a>
 
         <a class="team__item team__item--bg-2" href="#modal-team--2">
-            <div>
+            <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--2.jpg" alt=""></div>
+            <div class="team__item--caption">
                 <h5>Barbora Majernikova</h5>
                 <h4>Front end developer</h4>
             </div>
-            <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--2.jpg" alt=""></div>
         </a>
 
         <a class="team__item team__item--joinus team__item--bg-4" href="#section__contact">
-            <div>
-                <h4 class="team__title">Join us</h4>
-                <h4 class="team__title team__title--hover">This could be you</h4>
-            </div>
             <div class="team__item-image"></div>
+            <div class="team__item--caption">
+                <h5>This could be you</h5>
+                <h4>Join our team</h4>
+            </div>
         </a>
 
     </div>
@@ -123,8 +128,8 @@
         <div class="team__remodal-primary">
             <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--2.jpg" alt=""></div>
             <div>
-                <h3>Front end developer</h3>
-                <h2>Barbora Majernikova</h2>
+                <h5>Barbora Majernikova</h5>
+                <h4>Front End developer</h4>
                 <hr>
             </div>
         </div>

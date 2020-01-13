@@ -11,7 +11,7 @@
 
 ?>
 		<footer class="footer">
-			Made with Love - © 2020 cafecoders.net
+			Made with Coffee - © 2020 cafecoders.net
 			<div class="footer__social">
 				<a class="footer__social-item" href=""><i class="fab fa-linkedin  fa-lg"></i></a>
 				<a class="footer__social-item" href=""><i class="fab fa-facebook  fa-lg"></i></a>
