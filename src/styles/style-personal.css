@@ -118,12 +118,17 @@ ul {color: #B59A82; list-style-type: circle; margin: 0 auto; width: 90%;}
 .contact h3 { color: #B59A82; }
 .contact__content { margin: 0 auto; max-width: 800px; padding: 1rem 1rem; text-align: center; width: 100%; }
 .contact__form { display: flex; flex-direction: column; }
-.contact__form input { background: rgba(246,244,239,.9); border: 0; box-shadow: 0 0 20px #00000065; color: #603F2F; font: .8rem 'Poppins', sans-serif; margin-bottom: 2rem; padding: 1rem .5rem; width: 100%; }
+.contact__form input { background: rgba(246,244,239,.9); border: 0; box-shadow: 0 0 20px #00000065; color: #603F2F; font: .8rem 'Poppins', sans-serif; padding: 1rem .5rem; width: 100%; }
 .contact__form input::placeholder { color: #B59A82; font-style: italic; opacity: 1; }
 .contact__form input[type="submit"] { align-self: center; background: #B59A82; border: 0; color: #fff; cursor: pointer; font: 1rem 'Poppins', sans-serif; margin: 0 auto; padding: 11px 40px; position: relative; transition: all .25s; width: auto; }
 .contact__form input[type="submit"]:hover { background: #603F2F; }
-.contact__form textarea { background: rgba(246,244,239,.9); border: 0; box-shadow: 0 0 20px #00000065; color: #603F2F; font: 1rem 'Poppins', sans-serif; height: 10rem; margin-bottom: 2.5rem; padding: 1rem; width: 100%; }
+.contact__form p { color: transparent; margin: 0 0; max-width: none; }
+.contact__form-row input { width: inherit; }
+.contact__form textarea { background: rgba(246,244,239,.9); border: 0; box-shadow: 0 0 20px #00000065; color: #603F2F; font: 1rem 'Poppins', sans-serif; height: 10rem; padding: 1rem; width: 100%; }
 .contact__form textarea::placeholder { color: #B59A82; font-style: italic; opacity: 1; }
+.wpcf7-form-control-wrap { align-items: center; display: flex; flex-direction: column; justify-content: center; margin-bottom: 5%; }
+.wpcf7-not-valid-tip { padding-top: 1rem; }
+.wpcf7-validation-errors, .wpcf7-response-output { display: none !important; }
 @media (min-width: 800px) {
 	.contact form{ width: 80%; margin: 0 auto; }
 }

@@ -273,19 +273,6 @@
         <p>If you like our project and would like to use our help with your own website or project, leave our contact and message here, we will write you ASAP back on your email or Whatsapp and we can have a coffee soon! </p>
         <p>And of course, feel free to speak English, Spanish, Italian or Slovak :-). </p>
 
-        <!-- <form class="contact__form">
-            <input placeholder="Name*">
-            
-            <div class="contact__form-row">
-                <input placeholder="Email*" type="email">
-                <input placeholder="Phone*">
-            </div>
-                
-            <textarea placeholder="Message*" rows="1"></textarea>
-
-            <input type="submit" value="Contact us">
-        </form> -->
-
         <?php echo do_shortcode('[contact-form-7 id="68" title="Contact form" html_class="contact__form"]'); ?> <!-- Contact Form 7 Wordpress Plugin -->
 
     </div>
