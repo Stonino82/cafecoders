@@ -26,7 +26,7 @@ section { min-height: 100vh; position: relative; }
 @media (orientation: portrait) and (min-height: 992px) {
 	section { min-height: 50vh; }
 }
-
+ul {color: #B59A82; list-style-type: circle; margin: 0 auto; width: 90%;}
 /* ==================== navigation ==================== */
 
 .nav { align-items: center; color: #B59A82; display: flex; justify-content: space-between; left: 0; padding: 30px 5rem; position: absolute; right: 0; top: 0; z-index: 10; }

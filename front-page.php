@@ -116,8 +116,13 @@
         </div>
         <div class="team__remodal-secondary">
             <div class="team__remodal-header">“Nothing better than a cappuccino to start coding!”</div>
-            <p>No sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.  </p>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing 
+            <p>UX & UI designer, Front End developer (HTML5, CSS3), also experienced in Marketing (SEO off page and on page).</p>
+            <p>I am fascinated by the world of audiovisual communication, online marketing, new technologies, and digital art. These themes defined my field of study and, subsequently, my career. I consider myself a dynamic and versatile person, and with a natural enthusiasm to learn new concepts and tools that help me expand my knowledge and constantly advance on a personal and professional level.</p>
+            <p>In recent years I have oriented my training and experience in the design and development of web environments and applications towards two parallel areas:</p>
+            <ul>
+                <li>Client-side programming (Javascript, jQuery, etc.)</li>
+                <li>User Experience and User Interface: UX / UI, usability and information architecture.</li>
+            </ul>
         </div>
 
     </div>
