@@ -165,56 +165,37 @@
         <!-- <p>Take a look to our projects, these are just a few, we have participated on many more.<br /> And of course others are already in proces...<br /> If you get stocked with your project, or if you need a coworkers to give you a hand with a website, contact us, let's have a coffe and speak about it.</p> -->
     </article>
 
+    <!-- ACF -->
+    <?php if( have_rows('projects') ): ?>
 
-    <div class="references__item">
-        <div class="references__text">
-            <h4>2016 - now - front end - statusoid</h4>
-            <p> Monitor, manage & maintain your website with ease. Clever website monitoring which will help you fix the issues, automatically pause running Online PPC ads and notify your social networks. </p>
-            <a class="references__button" href="https://www.statusoid.com/" target="_blank">WEB SITE</a>
-        </div>
-        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--statusoid.jpg" alt="">
-    </div>
+        <?php while( have_rows('projects') ): the_row(); 
+            // vars
+            $client = get_sub_field('client');
+            $year_type = get_sub_field('year-type');
+            $description = get_sub_field('description');
+            $link = get_sub_field('link');
+            $image = get_sub_field('image');
+            $shadow = get_sub_field('shadow');
+        ?>
+            <?php if( $client ): ?>
+                <article class="references__item">
+                    <div class="references__text">
+                        <h4><?php echo $client; ?></h4>
+                        <h6><?php echo $year_type; ?></h6>
+                        <p><?php echo $description; ?></p>
+                    </div>
+                    <a href="<?php echo $link; ?>" target="_blank"><img class="references__image <?php echo $shadow; ?>" src="<?php echo $image; ?>" alt=""></a>
+                </article>
+            <?php endif; ?> 
 
-    <!-- web doesn't work for now
-    <div class="references__item">
-        <div class="references__text">
-            <h4>2018 - front end - Manopella</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
-            <a class="references__button" href="https://www.manopella.com/" target="_blank">WEB SITE</a>
-        </div>
-        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--manopella.jpg" alt="">
-    </div>
-    -->
+        <?php endwhile; ?>
 
-    <div class="references__item">
-        <div class="references__text">
-            <h4>2019 - front end - Karpis</h4>
-            <p>High quality wooden furniture manufacturers. The website promotes the whole scale of designs of the furniture, mostly tables.</p>
-            <a class="references__button" href="http://karpis.sk/en-index.html" target="_blank">WEB SITE</a>
-        </div>
-        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--karpis.jpg" alt="">
-    </div>
+    <?php endif; ?>
 
-    <div class="references__item">
-        <div class="references__text">
-            <h4>2019 - front end - SnugDesign</h4>
-            <p>Real estate website in Czech Republic. Purchase, sale and financing of real estate.</p>
-            <a class="references__button" href="http://vk-reality-sablony.snugdev.cz/" target="_blank">WEB SITE</a>
-        </div>
-        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--real.jpg" alt="">
-    </div>
-
-    <div class="references__item">
-        <div class="references__text">
-            <h4>2019 - front end - SnugDesign</h4>
-            <p>Wealth management - Application designed for clients who want to keep track of their financial and personal assets.</p>
-            <a class="references__button" href="http://roc-wm-sablony.snugdev.cz/" target="_blank">WEB SITE</a>
-        </div>
-        <img class="references__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/references__image--wealth.jpg" alt="">
-    </div>
+    <!-- /ACF -->
 
 
-    
+  
 
 </section> <!-- /reference -->
 <!--
