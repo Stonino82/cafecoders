@@ -78,9 +78,24 @@ function my_theme_enqueue_styles() {
  wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
  wp_enqueue_style( 'cafecoders-child-style', get_stylesheet_directory_uri() . '/dist/styles/style.min.css', array( $parent_style ), wp_get_theme()->get('Version'));
 
-
  wp_enqueue_script('jquery');
- wp_enqueue_script( 'personal-scripts', get_stylesheet_directory_uri() . '/dist/js/javascript.min.js', array( 'jquery' ), '1.0', false );
+ wp_enqueue_script( 'personal-scripts', get_stylesheet_directory_uri() . '/dist/js/javascript.min.js', array( 'jquery' ), '1.0', true );
+
+
+
+
+// OWL
+ wp_enqueue_style( 'owl-style', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' );
+
+//This is the method to register and enqueue scripts from cdn
+ wp_register_script( 'owl-script', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js',  array( 'jquery' ), null, true );
+ wp_enqueue_script('owl-script');
+//This is the method to register and enqueue scripts from cdn
+
+
+
+
+
 
 
 }

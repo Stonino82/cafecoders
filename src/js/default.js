@@ -22,6 +22,15 @@ jQuery(function ($) {   // All scripts after this line (with this we can use jQu
             $(this).toggleClass('nav__toggler--opened');
         });
 
+        // var home = $('#section__home').outerHeight();
+        // console.log(home);
+
+        // $(window).scroll(function() {
+        //     $('.js-nav').toggleClass('nav--sticked', $(document).scrollTop() >= 20);
+        // });
+
+
+
         // slider
 
         $(".js-team__slider").slick({
@@ -30,16 +39,12 @@ jQuery(function ($) {   // All scripts after this line (with this we can use jQu
             autoplaySpeed: 8000,
             dots: true,
             infinite: true,
+            centerMode: true,
+            centerPadding: '30px'
         });
 
     });
 
-    // var home = $('#section__home').outerHeight();
-    // console.log(home);
-
-    // $(window).scroll(function() {
-    //     $('.js-nav').toggleClass('nav--sticked', $(document).scrollTop() >= 20);
-    // });
 
 
 

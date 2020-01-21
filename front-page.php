@@ -5,7 +5,7 @@
     <article class="home__content">
         <h2>cafe:{coders}</h2>
         <hr>
-        <h1>web development agency based in Barcelona</h1>
+        <h1>web development agency<br> based in Barcelona</h1>
     </article>
 
 </section> <!-- /home section -->
@@ -93,66 +93,65 @@
 
     </div>
 
-    <div class="remodal team__remodal" data-remodal-id="modal-team--1">
-        <button data-remodal-action="close" class="remodal-close"></button>
+    <div id="modal-team--1" class="team__remodal-dialog">
+        <div class="team__remodal">
+            <a href="#close" title="Close" class="team__remodal-close"></a>
 
-        <div class="team__remodal-primary">
-            <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--1.jpg" alt=""></div>
-            <div>
-                <h5>Antonino Lattene</h5>
-                <h4>UX/UI - Web designer</h4>
-                <hr>
-                <p>
-                    <a class="team__link" href=""><i class="fab fa-linkedin fa-lg"></i></a>
-                    <a class="team__link" href=""><i class="fab fa-twitter-square fa-lg"></i></a>
-                    <a class="team__link" href=""><i class="fab fa-facebook-square fa-lg"></i></a>
-                    <a class="team__link" href=""><i class="fab fa-instagram fa-lg"></i></a>
-                </p>
-                <p>
-                    <a class="team__link" href=""><i class="fab fa-github-square fa-lg"></i>see on Github</a><br>
-                    <a class="team__link" href=""><i class="fas fa-external-link-alt fa-lg"></i> visit the page</a>
-                </p>
+            <div class="team__remodal-primary">
+                <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--1.jpg" alt=""></div>
+                <div>
+                    <h5>Antonino Lattene</h5>
+                    <h4>UX/UI - Web designer</h4>
+                    <hr>
+                    <p>
+                        <a class="team__link" href="https://www.linkedin.com/in/antoninolattene/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a class="team__link" href="https://github.com/Stonino82" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                        <a class="team__link" href="http://www.antoninolattene.com" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="team__remodal-secondary">
+                <div class="team__remodal-header">“Nothing better than a cappuccino to start coding!”</div>
+                <p>UX & UI designer, Front End developer (HTML5, CSS3), also experienced in Marketing (SEO off page and on page).</p>
+                <p>I am fascinated by the world of audiovisual communication, online marketing, new technologies, and digital art. These themes defined my field of study and, subsequently, my career. I consider myself a dynamic and versatile person, and with a natural enthusiasm to learn new concepts and tools that help me expand my knowledge and constantly advance on a personal and professional level.</p>
+                <p>In recent years I have oriented my training and experience in the design and development of web environments and applications towards two parallel areas:</p>
+                <ul>
+                    <li>Client-side programming (Javascript, jQuery, etc.)</li>
+                    <li>User Experience and User Interface: UX / UI, usability and information architecture.</li>
+                </ul>
             </div>
         </div>
-        <div class="team__remodal-secondary">
-            <div class="team__remodal-header">“Nothing better than a cappuccino to start coding!”</div>
-            <p>UX & UI designer, Front End developer (HTML5, CSS3), also experienced in Marketing (SEO off page and on page).</p>
-            <p>I am fascinated by the world of audiovisual communication, online marketing, new technologies, and digital art. These themes defined my field of study and, subsequently, my career. I consider myself a dynamic and versatile person, and with a natural enthusiasm to learn new concepts and tools that help me expand my knowledge and constantly advance on a personal and professional level.</p>
-            <p>In recent years I have oriented my training and experience in the design and development of web environments and applications towards two parallel areas:</p>
-            <ul>
-                <li>Client-side programming (Javascript, jQuery, etc.)</li>
-                <li>User Experience and User Interface: UX / UI, usability and information architecture.</li>
-            </ul>
-        </div>
-
     </div>
 
-    <div class="remodal team__remodal" data-remodal-id="modal-team--2">
-        <button data-remodal-action="close" class="remodal-close"></button>
 
-        <div class="team__remodal-primary">
-            <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--2.jpg" alt=""></div>
-            <div>
-                <h5>Barbora Majernikova</h5>
-                <h4>Front End developer</h4>
-                <hr>
+    <div id="modal-team--2" class="team__remodal-dialog">
+        <div class="team__remodal">
+            <a href="#close" title="Close" class="team__remodal-close"></a>
+
+            <div class="team__remodal-primary">
+                <div class="team__item-image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/team__image--2.jpg" alt=""></div>
+                <div>
+                    <h5>Barbora Majernikova</h5>
+                    <h4>Front End developer</h4>
+                    <hr>
+                </div>
+            </div>
+            <div class="team__remodal-secondary">
+                <div class="team__remodal-header">“it's only rock'n'roll but I like it”</div>
+                <p>I became self employed in 2009 right after my university studies. Despite having studied marketing communication, I work as a HTML/CSS front-end developer. I very much adore the freedom to travel my job gives me, while at the same time earning a living. I am from Bratislava, Slovakia and currently living in Barcelona.</p>
+                <div class="team__slider js-team__slider">
+                    <div class="team__testimonial">We have been working with Ms Majernikova for more than two years with a great satisfaction.  We've implemented more than 20 projects together and she did all of them very professionally and always to full satisfaction. We appreciate her flexibility, reliability, speed and quality work.  Negotiation is always without any problem and the price is adequate. I'm pleased to recommend Ms. Majerikova.
+                        <div class="team__testimonial-client">Ing. J. Šmigura, CEO, SnugDesign s.r.o.</div>
+                    </div>
+                    <div class="team__testimonial">"We have been cooperating with Bára for several years. Thanks to the codes, she has provided us with, we were able to finish plenty of interesting projects. What we appreciate the most is her professional attitude to work and her reliability at any time." 
+                        <div class="team__testimonial-client">Team CorporatePRO</div>
+                    </div>
+                    <div class="team__testimonial">"We have cooperated with Barbora Majernikova on several projects and there has been always a great satisfaction with her work. Unlike some other front end developers we work with, there is no need to modify the code and fix it in the responsive resolutin. It is always a precisely processed output without any problems and, moreover, always delivered on time." 
+                        <div class="team__testimonial-client">Inizio.cz</div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="team__remodal-secondary">
-            <div class="team__remodal-header">“it's only rock'n'roll but I like it”</div>
-            <p>I became self employed in 2009 right after my university studies. Despite having studied marketing communication, I work as a HTML/CSS front-end developer. I very much adore the freedom to travel my job gives me, while at the same time earning a living. I am from Bratislava, Slovakia and currently living in Barcelona.</p>
-            <div class="team__slider js-team__slider">
-                <div class="team__testimonial">We have been working with Ms Majernikova for more than two years with a great satisfaction.  We've implemented more than 20 projects together and she did all of them very professionally and always to full satisfaction. We appreciate her flexibility, reliability, speed and quality work.  Negotiation is always without any problem and the price is adequate. I'm pleased to recommend Ms. Majerikova.
-                    <div class="team__testimonial-client">Ing. J. Šmigura, CEO, SnugDesign s.r.o.</div>
-                </div>
-                <div class="team__testimonial">"We have been cooperating with Bára for several years. Thanks to the codes, she has provided us with, we were able to finish plenty of interesting projects. What we appreciate the most is her professional attitude to work and her reliability at any time." 
-                    <div class="team__testimonial-client">Team CorporatePRO</div>
-                </div>
-                <div class="team__testimonial">"We have cooperated with Barbora Majernikova on several projects and there has been always a great satisfaction with her work. Unlike some other front end developers we work with, there is no need to modify the code and fix it in the responsive resolutin. It is always a precisely processed output without any problems and, moreover, always delivered on time." 
-                    <div class="team__testimonial-client">Inizio.cz</div>
-                </div>
-            </div>
-        
     </div>
 
 </section> <!-- /team section -->
