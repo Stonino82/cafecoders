@@ -39,17 +39,17 @@
     </article>
 
     <div class="services__block">
-        <a class="services__item" href="">
+        <a class="services__item" href="#section__contact">
             <h4 class="services__name">UX/UI<br> Web design</h4>
             <img class="services__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/services__image--1.png" alt="">
         </a>
 
-        <a class="services__item" href="">
+        <a class="services__item" href="#section__contact">
             <h4 class="services__name">Front end<br> development</h4>
             <img class="services__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/services__image--2.png" alt="">
         </a>
 
-        <a class="services__item" href="">
+        <a class="services__item" href="#section__contact">
             <h4 class="services__name">Full Project</h4>
             <img class="services__image" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/services__image--3.png" alt="">
         </a>
