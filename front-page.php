@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section class="home" id="section__home">
-
+    
     <article class="home__content">
         <h2>cafe:{coders}</h2>
         <hr>
@@ -17,7 +17,7 @@
         <hr> -->
         <h4>Web developers,<br>addicted to coffee.<br>We are cafecoders!</h4>
         <p>Our passion for the world of web development is second only to our addiction to coffee, in fact ... we don't start a project without having had a good coffee (and some others in the meantime).</p>
-        <p>In our team there are those who prefer a good espresso italian coffee , others long American-style, others add milk, and others drink it without sugar.</p>
+        <p>In our team there are those who prefer a good espresso italian coffee, others long American-style, others add milk, and others drink it without sugar.</p>
         <p>In the same way, each one of us is preferably dedicated to a particular aspect of development, flirting with close topics: we have an experience and user interface designer, a Front-End developer, a development specialist focused on SEO, etc.</p>
         <h4>Everything we do, we do it with passion!<br>(and a good coffee by our side!)</h4>
         <p>We have worked on hundreds of projects for different clients from different countries in Europe, this translates into hundreds and hundreds of coffee, and a good background of experience.</p>

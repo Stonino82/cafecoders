@@ -41,7 +41,7 @@ section { min-height: 100vh; position: relative; }
 .nav { align-items: center; color: $light-brown; display: flex; justify-content: space-between; left: 0; padding: 30px 5rem; position: absolute; right: 0; top: 0; z-index: 10; }
 .nav__menu { display: flex; justify-content: flex-end; }
 .nav__item { align-items: center; display: flex; justify-content: flex-end; margin: 0 1.5rem; padding: .35rem 0; position: relative; }
-.nav__item::after { background: $light-brown; bottom: 0; content: ""; height: 2px; left: 0; margin: auto; position: absolute; right: 0; transition: all .25s; width: 0; }
+.nav__item::after { background: $light-brown; bottom: 0; border-radius: 10px; content: ""; height: 4px; left: 0; margin: auto; position: absolute; right: 0; transition: all .25s; width: 0; }
 .nav__item--current::after { width: 100%; }
 .nav__logo img { display: block; }
 .nav__toggler { background: linear-gradient(transparent 14px,$light-brown 14px, $light-brown 16px,transparent 16px); cursor: pointer; display: none; height: 30px; position: fixed; right: 3rem; top: 3rem; width: 30px; }
