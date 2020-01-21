@@ -239,7 +239,6 @@ section { min-height: 100vh; position: relative; }
 .team h5 { color: #B59A82; }
 @media (max-width: 1499px) {
 	.team__block { padding: 2rem; }
-	.team__item { }
 	.team__item-image { height: 12rem; width: 12rem; }
 	.team__item:hover .team__item-image { height: 13rem; width: 13rem; }
 }
@@ -252,7 +251,6 @@ section { min-height: 100vh; position: relative; }
 @media (max-width: 991px) {
 	.team { flex-direction: column; }
 	.team__block { max-width: none; padding-bottom: 5rem; }
-	.team__content {  }
 	.team__item {margin: 0; padding: 1rem 2rem; }
 }
 @media (max-width: 767px) {
