@@ -140,11 +140,10 @@ section { min-height: 100vh; position: relative; }
 .contact__form textarea::placeholder { color: $light-brown; font-style: italic; opacity: 1; }
 .wpcf7 { margin: 4rem 2rem !important; }
 .wpcf7-form-control-wrap { align-items: center; display: flex; flex-direction: column; justify-content: center; margin-bottom: 5%; }
-.wpcf7-not-valid-tip { padding-top: 1rem; }
-.wpcf7-validation-errors, .wpcf7-response-output { border: none; }
+div.wpcf7-validation-errors, div.wpcf7-response-output, div.wpcf7-spam-blocked { border: none; color: $dark-brown; margin: 0.5rem 1rem; padding: 0; }
 div.wpcf7-validation-errors { border: none; }
-.wpcf7-not-valid-tip { color: $light-brown; }
-.wpcf7-mail-sent-ok { border: none; }
+div.wpcf7-mail-sent-ok { border: none; color: $dark-brown; }
+span.wpcf7-not-valid-tip { color: $dark-brown; padding-top: 0.5rem; }
 @media (min-width: 800px) {
 	.contact form{ width: 80%; margin: 0 auto; }
 }
