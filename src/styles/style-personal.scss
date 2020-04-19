@@ -177,7 +177,6 @@ span.wpcf7-not-valid-tip { color: $dark-brown; padding-top: 0.5rem; }
 
 
 @media (min-width: 992px) {
-    .references__item { }
     .references__item:nth-child(2n+1) {grid-template-columns: 75% 25% ;}
     .references__item:nth-child(2n+1) .references__text { order: 2; }
 }
